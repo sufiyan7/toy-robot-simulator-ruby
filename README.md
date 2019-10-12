@@ -1,33 +1,5 @@
-Robot Simulator
+Toy Robot Simulator in Ruby
 ================
-
-## Run instructions
-
-Run the program with command below:
-
-```
-ruby robot_simulator.rb
-```
-
-Or you can also run it with the following command with sample data file (command.txt):
-
-```
-cat command.txt | ruby robot_simulator.rb
-```
-
-You can either run the Rspec tests (with test coverage included) with command below:
-
-```
-bundle install
-bundle exec rspec spec
-```
-
-I have also included Rubocop gem to ensure the source code meets the Ruby coding standards.
-Please run the following command to check for styles:
-
-```
-rubocop
-```
 
 ## Specification
 
@@ -37,7 +9,6 @@ Please find the gems that I have used while working on this project:
 
 - Rubocop - Static code analyser and checker which checks against the Ruby coding style.
 - Rspec - BDD Test Framework for Ruby
-- Simplecov - Code coverage tool for Ruby
 
 Please refer to file command.txt for sample test data.
 
@@ -92,8 +63,32 @@ LEFT
 MOVE
 REPORT
 Output: 3,3,NORTH
-```
-## Deliverables:
-The source files, the test data and any test code
-It is not required to provide any graphical output showing the movement of the toy robot
 
+
+## Run instructions
+
+Run the program with command below:
+
+```
+ruby robot_simulator.rb
+```
+
+Or you can also run it with the following command with sample data file (command.txt):
+
+```
+cat command.txt | ruby robot_simulator.rb
+```
+
+You can either run the Rspec tests (with test coverage included) with command below:
+
+```
+bundle install
+bundle exec rspec spec
+```
+
+I have also included Rubocop gem to ensure the source code meets the Ruby coding standards.
+Please run the following command to check for styles:
+
+```
+rubocop
+```
