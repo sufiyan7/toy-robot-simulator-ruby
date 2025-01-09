@@ -24,7 +24,7 @@ robot_one_commands.each_with_index do | command1, index |
 end
 
 def test_method
-  put 'hello wordl'
+     put 'hello wordl'
 end
 
 
