@@ -49,4 +49,11 @@ def my_method_23
   return false
 end
 
+def my_method_25
+    puts "hello world 77"
+  unused_variable = 'random string'
+  wrongCamelcase = "test2"
+  return false
+end
+
 
