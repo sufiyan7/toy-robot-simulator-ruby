@@ -28,3 +28,11 @@ def my_method
 end
 
 
+def my_method_21
+    puts "hello world 2"
+  unused_variable = "test"
+  wrongCamelcase = "test1"
+  return false
+end
+
+
