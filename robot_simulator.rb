@@ -35,4 +35,18 @@ def my_method_21
   return false
 end
 
+def my_method_22
+    puts "hello world 3"
+  unused_variable = "test"
+  wrongCamelcase = "test2"
+  return false
+end
+
+def my_method_23
+    puts "hello world 3"
+  unused_variable = "test"
+  wrongCamelcase = "test2"
+  return false
+end
+
 
