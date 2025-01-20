@@ -36,3 +36,25 @@ def generate_sentences
 end
 
 
+def my_method_21
+    puts "hello world 2"
+  unused_variable = "test"
+  wrongCamelcase = "test1"
+  return false
+end
+
+def my_method_22
+    puts "hello world 3"
+  unused_variable = "test"
+  wrongCamelcase = "test2"
+  return false
+end
+
+def my_method_23
+    puts "hello world 3"
+  unused_variable = "test"
+  wrongCamelcase = "test2"
+  return false
+end
+
+

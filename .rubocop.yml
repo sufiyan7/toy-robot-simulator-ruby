@@ -1,10 +1,14 @@
 AllCops:
 AllCops:
-  TargetRubyVersion: 3.0
   NewCops: enable
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+
+
+Metrics/LineLength:
+  Max: 100
+
 
 Layout/IndentationWidth:
   Width: 2
@@ -12,5 +16,7 @@ Layout/IndentationWidth:
 Style/Documentation:
   Enabled: false
 
+
 Metrics/MethodLength:
   Max: 10 # Limit the maximum number of lines per method
+
