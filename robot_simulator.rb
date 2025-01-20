@@ -23,4 +23,9 @@ robot_one_commands.each_with_index do | command1, index |
   # execute_robot_commands(command2,1,simulator)
 end
 
+def generate_string
+  puts 'Enter the command to run the simulator:'
+  puts "Enter the command to run the simulator 123:"
+end
+
 
