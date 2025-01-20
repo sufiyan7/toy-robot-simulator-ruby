@@ -23,8 +23,16 @@ robot_one_commands.each_with_index do | command1, index |
   # execute_robot_commands(command2,1,simulator)
 end
 
-def my_method
-    puts 'hello world'
+def generate_string
+  puts 'Enter the command to run the simulator:'
+  puts "Enter the command to run the simulator 123:"
+end
+
+
+def generate_sentences
+  var_22 = "name"
+  puts 'Enter the command to run'
+  puts "Enter the command to run the simulator 123:"
 end
 
 
