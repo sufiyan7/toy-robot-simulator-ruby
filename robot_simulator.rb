@@ -31,7 +31,7 @@ end
 
 def generate_sentences
   var_22 = "name"
-  puts 'Enter the command to run the simulator:'
+  puts 'Enter the command to run'
   puts "Enter the command to run the simulator 123:"
 end
 
